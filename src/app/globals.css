@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary: #3498db;
+  --secondary: #f1c40f;
+  --accent: #e74c3c;
+  --success: #2ecc71;
+  --warning: #f39c12;
+  --error: #e74c3c;
+  --info: #3498db;
+}
+
+body {
+  scrollbar-color: var(--primary) var(--primary);
+  scrollbar-width: thin;
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.container {
+  @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+}

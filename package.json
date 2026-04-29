@@ -1,0 +1,17 @@
+{
+  "name": "ecommerce-profit-prophet",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "15.2.0",
+    "react": "19.0.0",
+    "lucide-react": "^0.6.3",
+    "clsx": "^1.2.1",
+    "tailwind-merge": "^0.2.3",
+    "tailwindcss": "^3.4.0"
+  }
+}
